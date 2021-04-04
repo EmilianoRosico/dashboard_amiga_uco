@@ -19,10 +19,10 @@ export default function MainContainer() {
                         icon='fa-clipboard-list' />
 
                     <Card color='border-left-success'
-                        endpoint='http://localhost:3001/api/products'
+                        endpoint='http://localhost:3001/api/wineries'
                         subtitleStyle='text-success'
-                        subtitle='Amount in products'
-                        icon='fa-dollar-sign' />
+                        subtitle='Amount in wineries'
+                        icon='fa-wine-glass-alt' />
 
                     <Card color='border-left-warning'
                         endpoint='http://localhost:3001/api/users'
@@ -49,11 +49,11 @@ export default function MainContainer() {
                     <div className="col-lg-6 mb-4">
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
-                                <h6 className="m-0 font-weight-bold text-primary">Categories in Data Base</h6>
+                                <h6 className="m-0 font-weight-bold text-primary">Wineries in Data Base</h6>
                             </div>
                             <div className="card-body">
                                 <div className="row">
-                                    <CategoryCard description={['Category 01','Category 02','Category 03','Category 04','Category 05','Category 06']} />
+                                    <CategoryCard endpoint= "wineries" />
                                 </div>
                             </div>
                         </div>
