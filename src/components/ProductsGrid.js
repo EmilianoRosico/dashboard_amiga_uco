@@ -22,11 +22,11 @@ export default function ProductsGrid() {
             </div>
             <div className="text-center h3">
                 <span onClick={() => setCount(count > 2 ? count - 1 : 1)}>
-                    <i class="fas fa-arrow-circle-left"></i>
+                    <i className="fas fa-arrow-circle-left"></i>
                 </span>
                 <span style={{ margin: 30 }}>Pagina: {count} </span>
                 <span onClick={() => setCount(count + 1)}>
-                    <i class="fas fa-arrow-circle-right"></i>
+                    <i className="fas fa-arrow-circle-right"></i>
                 </span>
             </div>
         </div>
